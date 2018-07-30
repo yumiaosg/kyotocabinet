@@ -82,7 +82,7 @@ using ::modfl;
 using ::snprintf;
 }
 
-#if __cplusplus > 199711L || defined(__GXX_EXPERIMENTAL_CXX0X__) || defined(_MSC_VER)
+#if __cplusplus > 199711L || defined(__GXX_EXPERIMENTAL_CXX0X__) || defined(_MSC_VER) || __APPLE__
 
 #include <unordered_map>
 #include <unordered_set>

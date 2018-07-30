@@ -20,7 +20,7 @@ CXX = g++
 CFLAGS = -I. -I.. -Wall -ansi -pedantic -fsigned-char -O2
 CXXFLAGS = -I. -I.. -Wall -fsigned-char -O2
 LDFLAGS =
-LIBS = -L. -L.. -lkyotocabinet -lstdc++ -lz -lrt -lpthread -lm -lc
+LIBS = -L. -L.. -lkyotocabinet -lstdc++ -lz -lpthread -lm -lc
 LDENV = LD_RUN_PATH=/lib:/usr/lib:$(HOME)/lib:/usr/local/lib:.:..
 RUNENV = LD_LIBRARY_PATH=/lib:/usr/lib:$(HOME)/lib:/usr/local/lib:.:..
 
